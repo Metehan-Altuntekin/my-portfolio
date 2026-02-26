@@ -6,7 +6,7 @@ description: "A realization at my kitchen table and a lesson from my cat led me 
 createdAt: '2025-12-21'
 updatedAt: '2026-02-03'
 published: true
-image: "/blog/dining-table-pattern.jpeg"
+image: "/blog/dining-table-pattern16x9.jpeg"
 image16x9: "/blog/dining-table-pattern-16x9.jpeg"
 image4x3: "/blog/dining-table-pattern-4x3.jpeg"
 image1x1: "/blog/dining-table-pattern-1x1.jpeg"

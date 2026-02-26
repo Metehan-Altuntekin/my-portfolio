@@ -5,7 +5,7 @@ title: "How I optimized my SvelteKit website from 70 to 95+ on mobile Lighthouse
 description: "My journey of optimizing my SvelteKit site's mobile Lighthouse scores from 70 to 95+. I share tweaks for CSS inlining, JS chunks, and faster LCP."
 createdAt: '2026-02-26'
 published: true
-image: "/blog/thumbs/mobile-perf-thumb.jpg"
+image: "/blog/thumbs/mobile-perf-thumb16x9.jpg"
 image16x9: "/blog/thumbs/mobile-perf-thumb16x9.jpg"
 image4x3: "/blog/thumbs/mobile-perf-thumb4x3.jpg"
 image1x1: "/blog/thumbs/mobile-perf-thumb1x1.jpg"
