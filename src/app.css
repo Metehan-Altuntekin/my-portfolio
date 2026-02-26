@@ -7,8 +7,8 @@
 	--font-*: initial;
 	--font-sans: Commissioner, Helvetica, sans-serif;
 
-	--color-base-100: #1986b9;
-	--color-base-200: #16547e;
+	--color-base-100: #155575;
+	--color-base-200: #093850;
 	--color-base-300: #0f3c5a;
 	--color-base-content: #ffffff;
 	--color-base-content-muted: #d7e2f1;
@@ -285,7 +285,9 @@ pre.shiki code {
 
 	body {
 		@apply min-h-screen;
-		background: radial-gradient(var(--color-base-100), var(--color-base-200));
+		background: linear-gradient(-10deg, var(--color-base-100), var(--color-base-200));
+		background-attachment: fixed;
+		background-size: cover;
 	}
 
 	/* Responsive */

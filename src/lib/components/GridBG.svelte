@@ -22,7 +22,7 @@
 		background: url('/grid-dashed-bit.webp');
 		background-repeat: repeat;
 		background-size: var(--bg-size) var(--bg-size);
-		opacity: 0.6;
+		opacity: 0.32;
 
 		/* For parallax better performance */
 		will-change: transform;
