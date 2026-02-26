@@ -4,12 +4,10 @@ lang: 'tr'
 title: 'Yemek Masamdan ve Kedimden İnsan Dikkati Hakkında Öğrendiklerim'
 description: "Mutfak masamdaki bir detay ve kedimin davranışları beni gizli bir gerçeğe götürdü: Dünyayı olduğu gibi değil, ona nasıl bakıyorsak öyle görüyoruz. İşte, seçici algının farkında olmanın bir tasarımcı için neden kritik olduğu."
 createdAt: '2025-12-31'
-updatedAt: '2026-01-04'
+updatedAt: '2026-02-26'
 published: true
-image: "/blog/dining-table-pattern-16x9.jpeg"
-image16x9: "/blog/dining-table-pattern-16x9.jpeg"
-image4x3: "/blog/dining-table-pattern-4x3.jpeg"
-image1x1: "/blog/dining-table-pattern-1x1.jpeg"
+image: "/blog/thumbs/dining-table-pattern-16x9.webp"
+ogImage: "/blog/thumbs/dining-table-pattern-16x9.webp"
 tags:
 - design
 - ux

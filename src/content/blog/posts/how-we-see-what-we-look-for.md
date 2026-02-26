@@ -4,12 +4,10 @@ lang: 'en'
 title: 'What my dining table and my cat showed me about human attention'
 description: "A realization at my kitchen table and a lesson from my cat led me to a hidden truth: we don't see the world as it is; we see it as how we look at it. Here is why being mindful of selective perception is critical for any designer."
 createdAt: '2025-12-21'
-updatedAt: '2026-02-03'
+updatedAt: '2026-02-26'
 published: true
-image: "/blog/dining-table-pattern-16x9.jpeg"
-image16x9: "/blog/dining-table-pattern-16x9.jpeg"
-image4x3: "/blog/dining-table-pattern-4x3.jpeg"
-image1x1: "/blog/dining-table-pattern-1x1.jpeg"
+image: "/blog/thumbs/dining-table-pattern-16x9.webp"
+ogImage: "/blog/thumbs/dining-table-pattern-16x9.webp"
 tags:
 - design
 - ux

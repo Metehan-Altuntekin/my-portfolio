@@ -6,9 +6,7 @@ description: "My journey of optimizing my SvelteKit site's mobile Lighthouse sco
 createdAt: '2026-02-26'
 published: true
 image: "/blog/thumbs/mobile-perf-thumb-16x9.jpg"
-image16x9: "/blog/thumbs/mobile-perf-thumb-16x9.jpg"
-image4x3: "/blog/thumbs/mobile-perf-thumb-4x3.jpg"
-image1x1: "/blog/thumbs/mobile-perf-thumb-1x1.jpg"
+ogImage: "/blog/thumbs/mobile-perf-thumb-16x9.jpg"
 tags:
 - web-development
 - programming

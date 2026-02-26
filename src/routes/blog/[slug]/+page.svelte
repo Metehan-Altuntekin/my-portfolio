@@ -18,7 +18,7 @@
 
 	// Generate URLs and dates
 	const pageUrl = `${BASE_URL}/blog/${data.slug}`;
-	const ogImage = getAbsoluteImageUrl(data.meta.image);
+	const ogImage = getAbsoluteImageUrl(data.meta.ogImage);
 	const createdAt = formatISODate(data.meta.createdAt);
 	const updatedAt = data.meta.updatedAt ? formatISODate(data.meta.updatedAt) : createdAt;
 	const currentLang = languageTag();

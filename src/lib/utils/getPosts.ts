@@ -7,9 +7,7 @@ type PostMetadata = {
 	title: string;
 	description: string;
 	image?: string;
-	image16x9?: string;
-	image4x3?: string;
-	image1x1?: string;
+	ogImage?: string;
 	createdAt: string | Date;
 	updatedAt?: string | Date;
 	tags: string[];
