@@ -149,15 +149,9 @@
 	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 
-<section class="pt-0 flex flex-col items-start lg:flex-row-reverse">
+<section class="pt-0 flex flex-col items-start lg:flex-row-reverse gap-10 lg:gap-16">
 	{#if data.meta.toc.length}
-		<section
-			id="table-of-contents"
-			class="hidden lg:block lg:sticky top-10 right-0 text-blog-base-content-muted px-0 lg:ml-14 shrink-0
- 						md:w-42 lg:w-56 xl:w-auto xl:max-w-xs 2xl:max-w-sm"
-		>
-			{@render toc()}
-		</section>
+		{@render toc()}
 	{/if}
 
 	<article
@@ -240,26 +234,39 @@
 <section id="comments"></section>
 
 {#snippet toc()}
-	<ul class=" ">
-		{#each data.meta.toc as { id, title, level }}
-			<li
-				class="mb-3
-				{level === 1 || level === 2
-					? 'text-lg'
-					: level === 3
-						? 'ml-6 text-base'
-						: level === 4
-							? 'ml-12 text-sm'
-							: 'ml-18 text-xs'}"
+	<section
+		id="table-of-contents"
+		class="hidden lg:block lg:sticky top-10 right-0 shrink-0 px-0
+					md:w-42
+					lg:w-56 lg:ml-14
+					xl:w-auto xl:max-w-xs 2xl:max-w-sm"
+	>
+		<div class="flex flex-col max-h-[75vh]">
+			<ul
+				class="max-h-full overflow-y-auto z-0
+							[&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:w-4 [&::-webkit-scrollbar-thumb]:bg-gray-500/40 [&::-webkit-scrollbar-thumb]:rounded-xs"
 			>
-				<a
-					href="#{id}"
-					class="hover:underline max-w-full
+				{#each data.meta.toc as { id, title, level }}
+					<li
+						class="mb-3
+				{level === 1 || level === 2
+							? 'text-base'
+							: level === 3
+								? 'ml-6 text-sm'
+								: level === 4
+									? 'ml-12 text-xs'
+									: 'ml-18 text-[10px]'}"
+					>
+						<a
+							href="#{id}"
+							class="hover:underline max-w-full
 					{activeTitle === id
-						? 'text-blog-base-content font-semibold'
-						: 'text-blog-base-content-muted font-medium'}">{title}</a
-				>
-			</li>
-		{/each}
-	</ul>
+								? 'text-blog-base-content font-semibold'
+								: 'text-blog-base-content-muted font-medium'}">{title}</a
+						>
+					</li>
+				{/each}
+			</ul>
+		</div>
+	</section>
 {/snippet}
