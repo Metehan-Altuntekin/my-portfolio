@@ -149,8 +149,21 @@
 	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 
-<section class="pt-0 flex items-start">
-	<article id="post" class="prose prose-custom prose-invert prose-lg max-w-4xl mb-16 mr-auto">
+<section class="pt-0 flex flex-col items-start lg:flex-row-reverse">
+	{#if data.meta.toc.length}
+		<section
+			id="table-of-contents"
+			class="hidden lg:block lg:sticky top-10 right-0 text-blog-base-content-muted px-0 lg:ml-14 shrink-0
+ 						md:w-42 lg:w-56 xl:w-auto xl:max-w-xs 2xl:max-w-sm"
+		>
+			{@render toc()}
+		</section>
+	{/if}
+
+	<article
+		id="post"
+		class="prose prose-custom prose-invert prose-lg max-w-full md:max-w-4xl mb-16 mr-auto min-w-0"
+	>
 		<hgroup class="flex flex-col items-center sm:mb-10">
 			<!-- Image -->
 			{#if data.meta.image}
@@ -222,21 +235,12 @@
 
 		{@render data.content()}
 	</article>
-
-	{#if data.meta.toc.length}
-		<section
-			id="table-of-contents"
-			class="hidden lg:block sticky top-10 right-0 text-blog-base-content-muted pr-0 pl-10"
-		>
-			{@render toc()}
-		</section>
-	{/if}
 </section>
 
 <section id="comments"></section>
 
 {#snippet toc()}
-	<ul class="">
+	<ul class=" ">
 		{#each data.meta.toc as { id, title, level }}
 			<li
 				class="mb-3
@@ -250,7 +254,8 @@
 			>
 				<a
 					href="#{id}"
-					class="text-nowrap whitespace-nowrap hover:underline {activeTitle === id
+					class="hover:underline max-w-full
+					{activeTitle === id
 						? 'text-blog-base-content font-semibold'
 						: 'text-blog-base-content-muted font-medium'}">{title}</a
 				>
