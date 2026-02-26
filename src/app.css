@@ -87,7 +87,9 @@
 	& :where(h1, h2, h3, h4, h5, h6):not(:where([class~='not-prose'] *)) {
 		color: var(--tw-prose-headings);
 		font-weight: 735;
-		font-variation-settings: 'FLAR' 100;
+		font-variation-settings:
+			'FLAR' 100,
+			'VOLM' 10;
 	}
 
 	& :where(h1, h2):not(:where([class~='not-prose'] *)) {
