@@ -74,9 +74,13 @@
 	/* Apply the colors to actual elements */
 	& :where(p, li):not(:where([class~='not-prose'] *)) {
 		color: var(--tw-prose-body);
-		font-weight: 430;
-		letter-spacing: 0.018em;
+		/* font-weight: 430; */
 		text-shadow: none !important;
+		word-spacing: 0.08em;
+		letter-spacing: 0.015em;
+		font-variation-settings:
+			'FLAR' 100,
+			'VOLM' 0;
 
 		& > strong {
 			font-weight: 750;
