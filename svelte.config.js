@@ -109,7 +109,7 @@ const mdsvexOptions = {
 
 			const html = highlighter.codeToHtml(normalizedCode, {
 				lang,
-				theme: 'catppuccin-frappe',
+				theme: 'nord',
 				tabSize: 2
 			});
 
