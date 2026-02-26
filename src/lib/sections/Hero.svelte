@@ -98,7 +98,12 @@
 
 		<!-- Heading, Paragraph -->
 		<div class="sm:grow-0">
-			<h1 class="mb-[0.725em] text-[clamp(40px,5vw,88px)] font-bold leading-[1.14em] max-w-[10em]">
+			<h1
+				class="mb-[0.725em] text-[clamp(40px,5vw,88px)] font-bold leading-[1.14em] max-w-[10em]"
+				style="font-variation-settings:
+							'FLAR' 100,
+							'VOLM' 10;"
+			>
 				{m.hero_title()}
 			</h1>
 
