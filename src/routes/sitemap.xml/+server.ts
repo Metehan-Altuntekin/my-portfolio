@@ -6,6 +6,11 @@ export const prerender = true;
 
 const LANGUAGES = ['en', 'tr'] as const;
 
+const listOfLastMod = {
+	'/': new Date('2026-02-26').toISOString(),
+	'/blog': new Date('2026-02-26').toISOString()
+};
+
 function formatDate(date: string | Date | undefined): string {
 	if (!date) return new Date().toISOString();
 	const dateObj = typeof date === 'string' ? new Date(date.replaceAll('-', '/')) : date;
@@ -14,7 +19,6 @@ function formatDate(date: string | Date | undefined): string {
 
 export async function GET() {
 	const { posts } = await getAllPosts();
-	const now = new Date().toISOString();
 
 	const urls: Array<{ loc: string; lastmod: string; changefreq: string; priority: string }> = [];
 
@@ -23,7 +27,7 @@ export async function GET() {
 		const path = buildLocalizedPath('/', lang);
 		urls.push({
 			loc: `${BASE_URL}${path}`,
-			lastmod: now,
+			lastmod: listOfLastMod['/'],
 			changefreq: 'weekly',
 			priority: '1.0'
 		});
@@ -34,7 +38,7 @@ export async function GET() {
 		const path = buildLocalizedPath('/blog', lang);
 		urls.push({
 			loc: `${BASE_URL}${path}`,
-			lastmod: now,
+			lastmod: listOfLastMod['/blog'],
 			changefreq: 'weekly',
 			priority: '0.9'
 		});
