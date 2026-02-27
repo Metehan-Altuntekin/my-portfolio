@@ -156,7 +156,7 @@
 
 	<article
 		id="post"
-		class="prose prose-custom prose-invert prose-lg max-w-full md:max-w-4xl mb-16 mr-auto min-w-0"
+		class="prose prose-custom prose-invert prose-lg max-w-full md:max-w-3xl mb-16 mr-auto min-w-0"
 	>
 		<hgroup class="flex flex-col items-center sm:mb-10">
 			<!-- Image -->
