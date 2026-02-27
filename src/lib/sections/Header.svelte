@@ -11,7 +11,7 @@
 <svelte:window bind:scrollY />
 
 <header
-	class="z-50 fixed left-0 right-0 top-0 w-full px-(--page-padding) py-3 md:py-4
+	class="z-50 fixed left-0 right-0 top-0 w-full px-(--page-padding) py-3
 				transition-all duration-500
 				flex items-center justify-between
 				before:absolute before:-z-10 before:left-0 before:right-0 before:-top-16 before:bottom-0
