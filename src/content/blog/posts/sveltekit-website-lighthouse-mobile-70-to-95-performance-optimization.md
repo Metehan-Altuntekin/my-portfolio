@@ -4,6 +4,7 @@ lang: 'en'
 title: "How I optimized my SvelteKit website from 70 to 95+ on mobile Lighthouse tests"
 description: "My journey of optimizing my SvelteKit site's mobile Lighthouse scores from 70 to 95+. I share tweaks for CSS inlining, JS chunks, and faster LCP."
 createdAt: '2026-02-26'
+updatedAt: '2026-02-27'
 published: true
 image: "/blog/thumbs/mobile-perf-thumb-16x9.jpg"
 ogImage: "/blog/thumbs/mobile-perf-thumb-16x9.jpg"
@@ -21,7 +22,7 @@ The mobile tests are very harsh. They simulate a slow 4G network and a very thro
 
 And I finally achieved what I wanted. Now after all this work, my test scores are consistently 95+ on mobile and 100 on desktop. And I learned quite a few things along the way. With this post, I want to publish my journey and the things I learned. The topics will be varying from why I chose JPEG instead of more optimized formats for my LCP image, to tricks in SvelteKit to make it load more efficiently for websites with smaller bundle sizes.
 
-I hope it will be useful for future me who may forget these and for others.
+I hope it will be useful for future me who may forget these and everyone else who is reading this.
 
 ## Before State
 
