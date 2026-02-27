@@ -220,9 +220,11 @@
 				{#each data.meta.tags as category}
 					<a
 						href={`/blog?category=${category}`}
-						class="chip variant-filled-secondary no-underline border border-blog-base-content-muted/20 px-4! py-2! text-blog-base-content-muted hover:underline backdrop-blur-sm"
-						>{category}</a
+						class="chip variant-filled-secondary no-underline border border-blog-base-content-muted/20 px-4! py-2! text-blog-base-content-muted
+									hover:underline backdrop-blur-sm"
 					>
+						{category}
+					</a>
 				{/each}
 			</div>
 		</hgroup>

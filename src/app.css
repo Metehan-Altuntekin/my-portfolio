@@ -19,7 +19,7 @@
 
 	--color-blog-base-100: #183039;
 	--color-blog-base-200: #0b1c22;
-	--color-blog-base-content: #dfebe9;
+	--color-blog-base-content: #d5dcdc;
 	--color-blog-base-content-muted: #9bb5bb;
 
 	--radius-3xs: 12px;
@@ -76,8 +76,8 @@
 		color: var(--tw-prose-body);
 		/* font-weight: 430; */
 		text-shadow: none !important;
-		word-spacing: 0.08em;
-		letter-spacing: 0.015em;
+		word-spacing: 0.07em;
+		letter-spacing: -0.005em;
 		font-variation-settings:
 			'FLAR' 100,
 			'VOLM' 0;
@@ -89,19 +89,33 @@
 	}
 
 	& :where(h1, h2, h3, h4, h5, h6):not(:where([class~='not-prose'] *)) {
-		color: var(--tw-prose-headings);
+		color: var(--tw-prose-headings) !important;
 		font-weight: 735;
+	}
+
+	& :where(h1):not(:where([class~='not-prose'] *)) {
+		font-weight: 735;
+		letter-spacing: -0.01em;
 		font-variation-settings:
 			'FLAR' 100,
 			'VOLM' 10;
 	}
 
-	& :where(h1, h2):not(:where([class~='not-prose'] *)) {
+	& :where(h2, h3, h4, h5, h6):not(:where([class~='not-prose'] *)) {
+		font-weight: 720;
+		letter-spacing: 0.015em;
+		font-variation-settings: 'FLAR' 100;
 		margin-top: 3em;
+		margin-bottom: 1em;
 	}
 
-	& :where(h3, h4, h5, h6):not(:where([class~='not-prose'] *)) {
-		margin-top: 2em;
+	& :where(h4):not(:where([class~='not-prose'] *)) {
+		@apply text-xl;
+		font-weight: 700;
+		letter-spacing: 0.01em;
+		font-variation-settings: 'FLAR' 100;
+		margin-top: 3em;
+		margin-bottom: 1em;
 	}
 
 	& :where(a):not(:where([class~='not-prose'] *)) {
