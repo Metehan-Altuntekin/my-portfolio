@@ -30,7 +30,7 @@
 		{#each projects as p, i (i)}
 			<div class="card p-0 overflow-hidden max-w-120 lg:max-w-none">
 				<!-- TODO revise the hover cover -->
-				<a href={p.visitUrl} class="relative" title="Visit {p.name}">
+				<a href={p.visitUrl} class="relative" target="_blank" title="Visit {p.name}">
 					<img
 						src={p.thumb}
 						srcset={p.thumbSrcset}
