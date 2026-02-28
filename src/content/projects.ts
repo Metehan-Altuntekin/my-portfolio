@@ -132,7 +132,7 @@ const projects: Project[] = [
 		desc: 'A developer utility for extracting structured JSON data from unstructured files (PDFs, Images). Designed to streamline automation workflows.',
 		tools: [tools.ts, tools.daisyui, tools.tailwind],
 		tags: ['Design', 'Frontend'],
-		visitUrl: 'https://allset.chat',
+		visitUrl: 'https://tojson.dev',
 		thumb: tojsonThumb,
 		thumbSrcset: `${tojsonThumb400} 400w, ${tojsonThumb800} 800w, ${tojsonThumb} 1200w`,
 		thumbWidth: 1200,
