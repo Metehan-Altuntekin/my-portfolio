@@ -74,7 +74,7 @@
 	/* Apply the colors to actual elements */
 	& :where(p, li):not(:where([class~='not-prose'] *)) {
 		color: var(--tw-prose-body);
-		/* font-weight: 430; */
+		font-weight: 450;
 		text-shadow: none !important;
 		word-spacing: 0.07em;
 		letter-spacing: -0.005em;
