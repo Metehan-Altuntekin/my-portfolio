@@ -63,6 +63,13 @@
 			src="https://cloud.umami.is/script.js"
 			data-website-id="2e6c1eea-3ee3-440a-8425-a45ae4acb392"
 		></script>
+
+		<!-- To manually disable tracking for testing devices -->
+		<script>
+			if (window.location.search.includes('analyticsExclude=true')) {
+				localStorage.setItem('umami.disabled', 1);
+			}
+		</script>
 	</head>
 
 	<body data-sveltekit-preload-data="hover" class="z-0">
