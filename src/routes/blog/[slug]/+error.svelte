@@ -16,7 +16,7 @@
 		<h2 class="text-3xl lg:text-4xl xl:text-5xl font-semibold mb-4 lg:mb-6 xl:mb-8">
 			{isTurkish ? 'Yazı Bulunamadı' : 'Post Not Found'}
 		</h2>
-		<p class="text-blog-base-content-muted text-lg mb-8">
+		<p class="text-base-content-muted text-lg mb-8">
 			{isTurkish
 				? 'Aradığınız blog yazısı bulunamadı. Yazı silinmiş veya taşınmış olabilir. Veya seçtiğiniz dilde eklenmemiş olabilir.'
 				: "The blog post you're looking for doesn't exist. It may have been deleted or moved. Or it may not have been added in the language you selected."}

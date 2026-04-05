@@ -66,7 +66,7 @@
 				<div class="card-body p-5">
 					<time
 						datetime={formatISODate(post.createdAt)}
-						class="text-blog-base-content-muted font-medium text-xs block mb-1"
+						class="text-base-content-muted font-medium text-xs block mb-1"
 					>
 						{formatDate(post.createdAt)}
 					</time>

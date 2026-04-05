@@ -6,20 +6,6 @@
 	let { children } = $props();
 </script>
 
-<svelte:head>
-	<meta name="theme-color" content="#121211" />
-	<style>
-		html,
-		body {
-			background: var(--color-blog-base-200)
-				linear-gradient(-10deg, var(--color-blog-base-100), var(--color-blog-base-200));
-
-			background-attachment: fixed;
-			background-size: cover;
-		}
-	</style>
-</svelte:head>
-
 <SquareGridBG />
 
 <div class="w-full relative min-h-screen flex flex-col">

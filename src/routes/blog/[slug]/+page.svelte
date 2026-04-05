@@ -175,7 +175,7 @@
 
 			<!-- Date and Reading Time -->
 			<div class="w-full flex items-center gap-x-3 gap-y-2 flex-wrap mb-6">
-				<p class="text-sm text-blog-base-content-muted font-medium opacity-80 my-0!">
+				<p class="text-sm text-base-content-muted font-medium opacity-80 my-0!">
 					{formatDate(data.meta.createdAt)}
 					{#if data.meta.updatedAt}
 						{@const created =
@@ -196,8 +196,8 @@
 
 				{#if data.readingTime}
 					<div class="flex items-center gap-1">
-						<span class="text-blog-base-content-muted opacity-50 my-0!">·</span>
-						<p class="text-sm text-blog-base-content-muted font-medium opacity-80 my-0!">
+						<span class="text-base-content-muted opacity-50 my-0!">·</span>
+						<p class="text-sm text-base-content-muted font-medium opacity-80 my-0!">
 							{data.readingTime === 1
 								? m.blog_min_read({ count: data.readingTime })
 								: m.blog_mins_read({ count: data.readingTime })}
@@ -207,8 +207,8 @@
 
 				{#if data.meta.joke}
 					<div class="flex items-center gap-1">
-						<span class="text-blog-base-content-muted opacity-50 my-0!">·</span>
-						<p class="text-sm text-blog-base-content-muted opacity-50 font-medium my-0!">
+						<span class="text-base-content-muted opacity-50 my-0!">·</span>
+						<p class="text-sm text-base-content-muted opacity-50 font-medium my-0!">
 							{data.meta.joke}
 						</p>
 					</div>
@@ -220,7 +220,7 @@
 				{#each data.meta.tags as category}
 					<a
 						href={`/blog?category=${category}`}
-						class="chip variant-filled-secondary no-underline border border-blog-base-content-muted/20 px-4! py-2! text-blog-base-content-muted
+						class="chip variant-filled-secondary no-underline border border-base-content-muted/20 px-4! py-2! text-base-content-muted
 									hover:underline backdrop-blur-sm"
 					>
 						{category}
@@ -262,9 +262,8 @@
 						<a
 							href="#{id}"
 							class="hover:underline max-w-full
-					{activeTitle === id
-								? 'text-blog-base-content font-semibold'
-								: 'text-blog-base-content-muted font-medium'}">{title}</a
+					{activeTitle === id ? 'text-base-content font-semibold' : 'text-base-content-muted font-medium'}"
+							>{title}</a
 						>
 					</li>
 				{/each}
