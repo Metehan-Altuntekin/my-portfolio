@@ -1,14 +1,22 @@
 import allsetThumb from '$content/thumbs/allset.webp?enhanced';
-import breezbookThumb from '$content/thumbs/breezbook.webp?enhanced';
 import ozkanMusavirlikThumb from '$content/thumbs/ozkan-musavirlik.webp?enhanced';
 import tojsonThumb from '$content/thumbs/tojson.webp?enhanced';
-import breezbookBookingThumb from '$content/thumbs/breezbook-booking.webp?enhanced';
+import reguleThumb from '$content/thumbs/regule.png?enhanced';
+
 import { tools } from './projects';
 
 const projects: Project[] = [
 	{
+		name: 'Regule App',
+		desc: 'Zamanı iyi yönetmek için kendi üretkenlik uygulamam. Hayatınızdaki aktivitelere ne kadar zaman ayırdığınızı ve projelerinizin ne zaman biteceğini net olarak gösterir.',
+		tools: [tools.figma, tools.swift, tools.ts, tools.svelte],
+		tags: ['Mobil Tasarım', 'iOS Uygulaması'],
+		visitUrl: 'https://regule.app',
+		thumb: reguleThumb
+	},
+	{
 		name: 'Ozkan Musavirlik',
-		desc: 'Mali müşavirlik firması için headless CMS ve yüksek performanslı pazarlama platformu. 100/100 SEO skorları ve 0 hosting maliyeti için SvelteKit & Sanity ile geliştirildi.',
+		desc: 'Mali müşavirlik firması için headless CMS ve yüksek performanslı pazarlama platformu. 100/100 SEO skorları için SvelteKit & Sanity ile geliştirildi.',
 		tools: [tools.ts, tools.svelte, tools.sass, tools.figma],
 		tags: ['Tasarım', 'Frontend'],
 		visitUrl: 'https://www.ozkanmusavirlik.com.tr',
@@ -22,23 +30,24 @@ const projects: Project[] = [
 		visitUrl: 'https://allset-landing-dev-git-copy-test-metehan-altuntekins-projects.vercel.app/',
 		thumb: allsetThumb
 	},
-	{
-		name: 'BreezBook',
-		desc: "AllSet'e evrilen orijinal rezervasyon uygulaması. Yüksek hacimli hizmet planlaması için kullanıcı sürtünmesini azaltmaya odaklandı.",
-		tools: [tools.ts, tools.svelte, tools.daisyui, tools.tailwind],
-		tags: ['Tasarım', 'Frontend'],
-		visitUrl: 'https://breezbook.com',
-		thumb: breezbookThumb
-	},
-	{
-		name: 'BreezBook Booking App',
-		desc: "Figma'da tasarlanmış mobil-öncelikli rezervasyon uygulaması. Hizmet işletmeleri için kullanıcı sürtünmesini azaltmaya ve dönüşüm oranlarını artırmaya odaklandı.",
-		tools: [tools.figma],
-		tags: ['Tasarım'],
-		visitUrl:
-			'https://www.figma.com/proto/Y3429sNI1L6LkuI8Jy8h4b/Booking-App?page-id=6332%3A16614&node-id=7112-19778&p=f&viewport=385%2C457%2C0.09&t=S0bQVVQMdWIHw9NU-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7112%3A19778',
-		thumb: breezbookBookingThumb
-	},
+	// {
+	// 	name: 'BreezBook',
+	// 	desc: "AllSet'e evrilen orijinal rezervasyon uygulaması. Yüksek hacimli hizmet planlaması için kullanıcı sürtünmesini azaltmaya odaklandı.",
+	// 	tools: [tools.ts, tools.svelte, tools.daisyui, tools.tailwind],
+	// 	tags: ['Tasarım', 'Frontend'],
+	// 	visitUrl: 'https://breezbook.com',
+	// 	thumb: breezbookThumb
+	// },
+	// {
+	// 	name: 'BreezBook Booking App',
+	// 	desc: "Figma'da tasarlanmış mobil-öncelikli rezervasyon uygulaması. Hizmet işletmeleri için kullanıcı sürtünmesini azaltmaya ve dönüşüm oranlarını artırmaya odaklandı.",
+	// 	tools: [tools.figma],
+	// 	tags: ['Tasarım'],
+	// 	visitUrl:
+	// 		'https://www.figma.com/proto/Y3429sNI1L6LkuI8Jy8h4b/Booking-App?page-id=6332%3A16614&node-id=7112-19778&p=f&viewport=385%2C457%2C0.09&t=S0bQVVQMdWIHw9NU-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7112%3A19778',
+	// 	thumb: breezbookBookingThumb
+	// },
+
 	{
 		name: 'ToJson.dev',
 		desc: "Yapılandırılmamış dosyalardan (PDF'ler, Görüntüler) yapılandırılmış JSON verisi çıkarmak için bir geliştirici yardımcı programı. Otomasyon iş akışlarını kolaylaştırmak için tasarlandı.",
