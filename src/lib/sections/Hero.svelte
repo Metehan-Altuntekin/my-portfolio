@@ -118,7 +118,7 @@
 		<!--  CTAs -->
 		<div class="flex gap-5 max-w-full">
 			{#each ctas as c (c.title)}
-				<a class="card card-clickable w-64 gap-1 p-3 lg:gap-3 lg:p-6" href={c.url}>
+				<a class="card card-clickable w-64 gap-1 p-4 lg:gap-3 lg:p-6" href={c.url}>
 					<h2 class="text-xl/7 lg:text-2xl font-bold">{c.title}</h2>
 					<p class="text-subtitle">{c.description}</p>
 				</a>
