@@ -31,12 +31,9 @@
 			<div class="card p-0 overflow-hidden max-w-120 lg:max-w-none">
 				<!-- TODO revise the hover cover -->
 				<a href={p.visitUrl} class="relative" target="_blank" title="Visit {p.name}">
-					<img
+					<enhanced:img
 						src={p.thumb}
-						srcset={p.thumbSrcset}
 						sizes="(max-width: 639px) 45vw, (max-width: 1023px) 45vw, 30vw"
-						width={p.thumbWidth}
-						height={p.thumbHeight}
 						class="card-content rounded-b-none aspect-video"
 						alt="Preview of {p.name} project"
 						loading="lazy"

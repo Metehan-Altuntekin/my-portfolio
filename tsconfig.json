@@ -1,7 +1,7 @@
 {
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
-		"types": ["unplugin-icons/types/svelte"],
+		"types": ["unplugin-icons/types/svelte", "@sveltejs/enhanced-img"],
 		"allowJs": true,
 		"checkJs": true,
 		"esModuleInterop": true,

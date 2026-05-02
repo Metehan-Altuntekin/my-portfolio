@@ -20,10 +20,7 @@ declare global {
 		tags: string[];
 		tools: Tool[];
 
-		thumb: string;
-		thumbSrcset?: string;
-		thumbWidth?: number;
-		thumbHeight?: number;
+		thumb: import('@sveltejs/enhanced-img').Picture;
 		visitUrl?: string;
 	};
 
@@ -46,6 +43,10 @@ declare global {
 		slug: string;
 		description: string;
 		image?: string;
+		/** Optional JSON-LD image variants (see `buildImageArray` in blog utils) */
+		image16x9?: string;
+		image4x3?: string;
+		image1x1?: string;
 		ogImage?: string;
 		createdAt: string | Date;
 		updatedAt?: string | Date;
