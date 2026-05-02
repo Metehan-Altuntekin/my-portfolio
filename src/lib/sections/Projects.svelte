@@ -47,7 +47,7 @@
 										bg-white/10 backdrop-blur-xs text-2xl font-semibold
 										opacity-0 hover:opacity-100 transition-all"
 						>
-							<span class="chip bg-black/50 text-xl text-base-content">
+							<span class="chip bg-black/50 text-xl text-base-content flex items-center">
 								{m.projects_visit_site()}
 								<ArrowOutwardIcon class="text-3xl ml-2 inline" />
 							</span>
