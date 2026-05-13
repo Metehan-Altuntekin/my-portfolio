@@ -30,5 +30,8 @@
 
 	"blog_min_read": "{count} dk okuma",
 	"blog_mins_read": "{count} dk okuma",
-	"blog_updated": "güncellendi"
+	"blog_updated": "güncellendi",
+
+	"toc_open": "Aç: İçindekiler",
+	"toc_close": "Kapat: İçindekiler"
 }

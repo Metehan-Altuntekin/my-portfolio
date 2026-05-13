@@ -30,5 +30,8 @@
 
 	"blog_min_read": "{count} min read",
 	"blog_mins_read": "{count} mins read",
-	"blog_updated": "updated"
+	"blog_updated": "updated",
+
+	"toc_open": "Open table of contents",
+	"toc_close": "Close table of contents"
 }
