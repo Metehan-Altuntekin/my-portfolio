@@ -1,8 +1,6 @@
 <script lang="ts">
-	import { onDestroy, onMount, tick } from 'svelte';
-	import { browser } from '$app/environment';
-
 	import { BASE_URL, SITE_NAME, TWITTER_HANDLE, AUTHOR_NAME } from '$lib/constants.js';
+	import Toc from '$lib/components/Toc.svelte';
 	import { languageTag } from '$lib/paraglide/runtime';
 	import * as m from '$lib/paraglide/messages.js';
 	import {
@@ -13,8 +11,6 @@
 	} from '$lib/utils/blog.js';
 
 	const { data } = $props();
-
-	let activeTitle = $state<string | null>(null);
 
 	// Generate URLs and dates
 	const pageUrl = `${BASE_URL}/blog/${data.slug}`;
@@ -51,43 +47,6 @@
 			'@id': pageUrl
 		}
 	};
-
-	$inspect('activeTitle: ', activeTitle);
-
-	let observer: IntersectionObserver | null = $state(null);
-
-	onMount(async () => {
-		if (!browser) return;
-
-		await tick();
-
-		observer = new IntersectionObserver(
-			(entries, observer) => {
-				entries.forEach((e) => {
-					if (e.isIntersecting) {
-						activeTitle = e.target.id;
-					}
-				});
-			},
-			{
-				threshold: 0,
-				rootMargin: '5% 0px -70% 0px'
-				// only observe the top 30% of the page to prevent other titles becoming active early
-			}
-		);
-
-		data.meta.toc.forEach(({ id }) => {
-			const el = document.getElementById(id);
-			if (!el) return;
-			observer?.observe(el);
-		});
-	});
-
-	// make sure to disconnect to prevent memory leaks
-	onDestroy(() => {
-		if (!browser) return;
-		observer?.disconnect();
-	});
 </script>
 
 <!-- SEO -->
@@ -151,7 +110,7 @@
 
 <section class="pt-0 flex flex-col items-start lg:flex-row-reverse gap-10 lg:gap-16">
 	{#if data.meta.toc.length}
-		{@render toc()}
+		<Toc items={data.meta.toc} />
 	{/if}
 
 	<article
@@ -234,40 +193,3 @@
 </section>
 
 <section id="comments"></section>
-
-{#snippet toc()}
-	<section
-		id="table-of-contents"
-		class="hidden lg:block lg:sticky top-10 right-0 shrink-0 px-0
-					md:w-42
-					lg:w-56 lg:ml-14
-					xl:w-auto xl:max-w-xs 2xl:max-w-sm"
-	>
-		<div class="flex flex-col max-h-[75vh]">
-			<ul
-				class="max-h-full overflow-y-auto z-0
-							[&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:w-4 [&::-webkit-scrollbar-thumb]:bg-gray-500/40 [&::-webkit-scrollbar-thumb]:rounded-xs"
-			>
-				{#each data.meta.toc as { id, title, level }}
-					<li
-						class="mb-3
-				{level === 1 || level === 2
-							? 'text-base'
-							: level === 3
-								? 'ml-6 text-sm'
-								: level === 4
-									? 'ml-12 text-xs'
-									: 'ml-18 text-[10px]'}"
-					>
-						<a
-							href="#{id}"
-							class="hover:underline max-w-full
-					{activeTitle === id ? 'text-base-content font-semibold' : 'text-base-content-muted font-medium'}"
-							>{title}</a
-						>
-					</li>
-				{/each}
-			</ul>
-		</div>
-	</section>
-{/snippet}
