@@ -78,10 +78,7 @@
 	aria-label="Table of contents"
 >
 	<div class="flex flex-col max-h-[75vh]">
-		<ul
-			class="max-h-full overflow-y-auto z-0
-						[&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:w-4 [&::-webkit-scrollbar-thumb]:bg-gray-500/40 [&::-webkit-scrollbar-thumb]:rounded-xs"
-		>
+		<ul class="max-h-full overflow-y-auto z-0">
 			{#each items as { id, title, level }}
 				<li
 					class="mb-3
@@ -96,8 +93,10 @@
 					<a
 						href="#{id}"
 						class="hover:underline max-w-full
-				{activeTitle === id ? 'text-base-content font-semibold' : 'text-base-content-muted font-medium'}"
-						>{title}</a
+									{activeTitle === id ? 'text-base-content font-semibold' : 'text-base-content-muted font-medium'}"
+						>
+						{title}
+						</a
 					>
 				</li>
 			{/each}
