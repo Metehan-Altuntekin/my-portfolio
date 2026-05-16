@@ -7,7 +7,7 @@ export const prerender = true;
 const LANGUAGES = ['en', 'tr'] as const;
 
 const listOfLastMod = {
-	'/': new Date('2026-02-26').toISOString(),
+	'/': new Date('2026-05-16').toISOString(),
 	'/blog': new Date('2026-02-26').toISOString()
 };
 

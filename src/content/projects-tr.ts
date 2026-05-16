@@ -16,15 +16,15 @@ const projects: Project[] = [
 	},
 	{
 		name: 'Ozkan Musavirlik',
-		desc: 'Mali müşavirlik firması için headless CMS ve yüksek performanslı pazarlama platformu. 100/100 SEO skorları için SvelteKit & Sanity ile geliştirildi.',
-		tools: [tools.ts, tools.svelte, tools.sass, tools.figma],
-		tags: ['Tasarım', 'Frontend'],
+		desc: 'Mali müşavirlik firması için yüksek performanslı pazarlama sitesi. Blog özelliği ile içerik yönetimi kolaylaştırıldı. SvelteKit & Sanity ile geliştirildi.',
+		tools: [tools.ts, tools.svelte, tools.sanity, tools.sass, tools.figma],
+		tags: ['Tasarım', 'Full-Stack', 'CMS'],
 		visitUrl: 'https://www.ozkanmusavirlik.com.tr',
 		thumb: ozkanMusavirlikThumb
 	},
 	{
 		name: 'AllSet',
-		desc: 'WhatsApp ile entegre edilmiş AI destekli resepsiyonist. Marka kimliğini tasarladım ve landing sayfasını geliştirdim.',
+		desc: "WhatsApp ile entegre edilmiş AI destekli resepsiyonist. Marka kimliğini, landing sayfasını ve onboarding flow'unu tasarldım ve geliştirdim.",
 		tools: [tools.ts, tools.figma, tools.svelte, tools.tailwind, tools.daisyui],
 		tags: ['Tasarım', 'Frontend'],
 		visitUrl: 'https://allset-landing-dev-git-copy-test-metehan-altuntekins-projects.vercel.app/',

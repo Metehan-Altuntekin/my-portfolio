@@ -18,19 +18,33 @@ import MuiIcon from '~icons/simple-icons/mui';
 import NodeJsIcon from '~icons/logos/nodejs-icon';
 import AffinityDesignerIcon from '~icons/simple-icons/affinitydesigner';
 import SwiftIcon from '~icons/skill-icons/swift';
+import SanityIcon from '~icons/simple-icons/sanity';
 
 export const tools = {
-	ts: {
-		name: 'TypeScript',
-		icon: TypeScriptIcon
-	},
 	figma: {
 		name: 'Figma',
 		icon: FigmaIcon
 	},
+	ts: {
+		name: 'TypeScript',
+		icon: TypeScriptIcon
+	},
+	nodejs: {
+		name: 'Node JS',
+		icon: NodeJsIcon
+	},
+
 	svelte: {
 		name: 'Svelte/Kit',
 		icon: SvelteIcon
+	},
+	react: {
+		name: 'React',
+		icon: ReactIcon
+	},
+	nextJs: {
+		name: 'NextJS',
+		icon: NextJsIcon
 	},
 	tailwind: {
 		name: 'Tailwind CSS',
@@ -44,40 +58,32 @@ export const tools = {
 		name: 'SASS',
 		icon: SassIcon
 	},
-	react: {
-		name: 'React',
-		icon: ReactIcon
-	},
 	supabase: {
 		name: 'Supabase',
 		icon: SupabaseIcon
-	},
-	nextJs: {
-		name: 'NextJS',
-		icon: NextJsIcon
 	},
 	mui: {
 		name: 'Material UI',
 		icon: MuiIcon
 	},
-	nodejs: {
-		name: 'Node JS',
-		icon: NodeJsIcon
+	swift: {
+		name: 'Swift',
+		icon: SwiftIcon
 	},
 	affinityDesigner: {
 		name: 'AD 2',
 		icon: AffinityDesignerIcon
 	},
-	swift: {
-		name: 'Swift',
-		icon: SwiftIcon
+	sanity: {
+		name: 'Sanity',
+		icon: SanityIcon
 	}
 } as const;
 
 const projects: Project[] = [
 	{
 		name: 'Regule App',
-		desc: 'My own productivity app for managing time well. It shows you exactly how much time activities you take in your life and when your projects will finish.',
+		desc: 'My productivity app for managing time well. It is for tracking time you on activities and calculating when your projects will finish.',
 		tools: [tools.figma, tools.swift, tools.ts, tools.svelte],
 		tags: ['Mobile Design', 'iOS App'],
 		visitUrl: 'https://regule.app',
@@ -85,15 +91,15 @@ const projects: Project[] = [
 	},
 	{
 		name: 'Ozkan Musavirlik',
-		desc: 'A headless CMS and high-performance marketing platform for a financial consultancy firm. Built with SvelteKit & Sanity for 100/100 SEO scores. ',
-		tools: [tools.ts, tools.svelte, tools.sass, tools.figma],
-		tags: ['Design', 'Frontend'],
+		desc: 'High-performance marketing website with a blog feature for an accountancy firm. Built with SvelteKit & Sanity.',
+		tools: [tools.ts, tools.svelte, tools.sanity, tools.sass, tools.figma],
+		tags: ['Design', 'Full-Stack', 'CMS'],
 		visitUrl: 'https://www.ozkanmusavirlik.com.tr',
 		thumb: ozkanMusavirlikThumb
 	},
 	{
 		name: 'AllSet',
-		desc: 'An AI-powered receptionist integrated with WhatsApp. Designed the brand identity and engineered the landing infrastructure.',
+		desc: 'An AI-powered receptionist integrated with WhatsApp. Designed and built the brand identity, landing page and the onboarding flow.',
 		tools: [tools.ts, tools.figma, tools.svelte, tools.tailwind, tools.daisyui],
 		tags: ['Design', 'Frontend'],
 		visitUrl: 'https://allset-landing-dev-git-copy-test-metehan-altuntekins-projects.vercel.app/',
