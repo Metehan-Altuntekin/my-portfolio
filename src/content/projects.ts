@@ -84,7 +84,7 @@ const projects: Project[] = [
 	{
 		name: 'Regule App',
 		desc: 'My productivity app for managing time well. It is for tracking time you on activities and calculating when your projects will finish.',
-		tools: [tools.figma, tools.swift, tools.ts, tools.svelte],
+		tools: [tools.figma, tools.swift, tools.svelte],
 		tags: ['Mobile Design', 'iOS App'],
 		visitUrl: 'https://regule.app',
 		thumb: reguleThumb
@@ -92,15 +92,15 @@ const projects: Project[] = [
 	{
 		name: 'Ozkan Musavirlik',
 		desc: 'High-performance marketing website with a blog feature for an accountancy firm. Built with SvelteKit & Sanity.',
-		tools: [tools.ts, tools.svelte, tools.sanity, tools.sass, tools.figma],
-		tags: ['Design', 'Full-Stack', 'CMS'],
+		tools: [tools.sanity, tools.svelte, tools.sass, tools.figma],
+		tags: ['Design', 'Frontend', 'CMS'],
 		visitUrl: 'https://www.ozkanmusavirlik.com.tr',
 		thumb: ozkanMusavirlikThumb
 	},
 	{
 		name: 'AllSet',
 		desc: 'An AI-powered receptionist integrated with WhatsApp. Designed and built the brand identity, landing page and the onboarding flow.',
-		tools: [tools.ts, tools.figma, tools.svelte, tools.tailwind, tools.daisyui],
+		tools: [tools.figma, tools.svelte, tools.tailwind, tools.daisyui],
 		tags: ['Design', 'Frontend'],
 		visitUrl: 'https://allset-landing-dev-git-copy-test-metehan-altuntekins-projects.vercel.app/',
 		thumb: allsetThumb
@@ -126,7 +126,7 @@ const projects: Project[] = [
 	{
 		name: 'ToJson.dev',
 		desc: 'A developer utility for extracting structured JSON data from unstructured files (PDFs, Images). Designed to streamline automation workflows.',
-		tools: [tools.ts, tools.daisyui, tools.tailwind],
+		tools: [tools.daisyui, tools.tailwind, tools.svelte],
 		tags: ['Design', 'Frontend'],
 		visitUrl: 'https://tojson.dev',
 		thumb: tojsonThumb

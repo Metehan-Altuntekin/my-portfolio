@@ -9,7 +9,7 @@ const projects: Project[] = [
 	{
 		name: 'Regule App',
 		desc: 'Zamanı iyi yönetmek için kendi üretkenlik uygulamam. Hayatınızdaki aktivitelere ne kadar zaman ayırdığınızı ve projelerinizin ne zaman biteceğini net olarak gösterir.',
-		tools: [tools.figma, tools.swift, tools.ts, tools.svelte],
+		tools: [tools.figma, tools.swift, tools.svelte],
 		tags: ['Mobil Tasarım', 'iOS Uygulaması'],
 		visitUrl: 'https://regule.app',
 		thumb: reguleThumb
@@ -17,15 +17,15 @@ const projects: Project[] = [
 	{
 		name: 'Ozkan Musavirlik',
 		desc: 'Mali müşavirlik firması için yüksek performanslı pazarlama sitesi. Blog özelliği ile içerik yönetimi kolaylaştırıldı. SvelteKit & Sanity ile geliştirildi.',
-		tools: [tools.ts, tools.svelte, tools.sanity, tools.sass, tools.figma],
-		tags: ['Tasarım', 'Full-Stack', 'CMS'],
+		tools: [tools.sanity, tools.svelte, tools.sass, tools.figma],
+		tags: ['Tasarım', 'Frontend', 'CMS'],
 		visitUrl: 'https://www.ozkanmusavirlik.com.tr',
 		thumb: ozkanMusavirlikThumb
 	},
 	{
 		name: 'AllSet',
 		desc: "WhatsApp ile entegre edilmiş AI destekli resepsiyonist. Marka kimliğini, landing sayfasını ve onboarding flow'unu tasarldım ve geliştirdim.",
-		tools: [tools.ts, tools.figma, tools.svelte, tools.tailwind, tools.daisyui],
+		tools: [tools.figma, tools.svelte, tools.tailwind, tools.daisyui],
 		tags: ['Tasarım', 'Frontend'],
 		visitUrl: 'https://allset-landing-dev-git-copy-test-metehan-altuntekins-projects.vercel.app/',
 		thumb: allsetThumb
@@ -51,7 +51,7 @@ const projects: Project[] = [
 	{
 		name: 'ToJson.dev',
 		desc: "Yapılandırılmamış dosyalardan (PDF'ler, Görüntüler) yapılandırılmış JSON verisi çıkarmak için bir geliştirici yardımcı programı. Otomasyon iş akışlarını kolaylaştırmak için tasarlandı.",
-		tools: [tools.ts, tools.daisyui, tools.tailwind],
+		tools: [tools.daisyui, tools.tailwind, tools.svelte],
 		tags: ['Tasarım', 'Frontend'],
 		visitUrl: 'https://tojson.dev',
 		thumb: tojsonThumb
