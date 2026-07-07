@@ -2,8 +2,7 @@ import { buildLocalizedPath } from '../i18n-utils';
 
 // Post type is defined globally in app.d.ts
 type PostMetadata = {
-	id: string;
-	lang: 'en' | 'tr';
+	slug: string;
 	title: string;
 	description: string;
 	image?: string;
@@ -34,19 +33,23 @@ export async function getAllPosts(): Promise<{
 	// Return cached version if available
 	if (postsCache) return postsCache;
 
-	const paths = import.meta.glob('/src/content/blog/posts/*.md', { eager: true });
+	const paths = import.meta.glob('/src/content/blog/posts/**/*.md', { eager: true });
+
 	const posts: Post[] = [];
 	const byId = new Map<string, Post[]>();
 	const bySlug = new Map<string, Post>();
 
 	const entries = Object.entries(paths)
 		.map(([path, file]) => {
-			const slug = path.split('/').at(-1)?.replace('.md', '');
-			if (file && typeof file === 'object' && 'metadata' in file && slug) {
+			const lang = (path.split('/').at(-1)?.replace('.md', '') ?? 'en') as 'en' | 'tr';
+			const id = path.split('/').at(-2) ?? '';
+
+			if (file && typeof file === 'object' && 'metadata' in file) {
 				const metadata = file.metadata as PostMetadata;
-				const post = { ...metadata, slug } satisfies Post;
-				return post.published && post.id && post.lang ? post : null;
+				const post = { ...metadata, lang, id } satisfies Post;
+				return post.published ? post : null;
 			}
+
 			return null;
 		})
 		.filter((post): post is Post => post !== null);
@@ -59,6 +62,7 @@ export async function getAllPosts(): Promise<{
 	});
 
 	postsCache = { posts, byId, bySlug };
+
 	return postsCache;
 }
 

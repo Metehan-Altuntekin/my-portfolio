@@ -1,6 +1,5 @@
 ---
-id: 'sveltekit-website-lighthouse-mobile-95-plus-performance-optimization'
-lang: 'en'
+slug: "sveltekit-website-lighthouse-mobile-70-to-95-performance-optimization"
 title: "How I optimized my SvelteKit website from 70 to 95+ on mobile Lighthouse tests"
 description: "My journey of optimizing my SvelteKit site's mobile Lighthouse scores from 70 to 95+. I share tweaks for CSS inlining, JS chunks, and faster LCP."
 createdAt: '2026-02-26'

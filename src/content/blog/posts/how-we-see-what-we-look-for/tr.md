@@ -1,6 +1,5 @@
 ---
-id: 'how-we-see-what-we-look-for'
-lang: 'tr'
+slug: "neyi-gormek-istersek-onu-goruruz"
 title: 'Yemek Masamdan ve Kedimden İnsan Dikkati Hakkında Öğrendiklerim'
 description: "Mutfak masamdaki bir detay ve kedimin davranışları beni gizli bir gerçeğe götürdü: Dünyayı olduğu gibi değil, ona nasıl bakıyorsak öyle görüyoruz. İşte, seçici algının farkında olmanın bir tasarımcı için neden kritik olduğu."
 createdAt: '2025-12-31'

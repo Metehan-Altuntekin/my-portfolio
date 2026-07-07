@@ -3,8 +3,9 @@ import { getPostBySlug, getPostAlternates, getAllPosts } from '$lib/utils/getPos
 import { setLanguageTag } from '$lib/paraglide/runtime';
 import { getLanguageFromPath, buildLocalizedPath } from '$lib/i18n-utils';
 import { calculateReadingTime } from '$lib/utils/blog';
+import type { PageLoad } from './$types';
 
-export const load = async ({ params, url }) => {
+export const load: PageLoad = async ({ params, url }) => {
 	const lang = getLanguageFromPath(url.pathname);
 	setLanguageTag(lang);
 
@@ -30,13 +31,13 @@ export const load = async ({ params, url }) => {
 	}
 
 	// Try to load the markdown file
-	let content = await import(`../../../content/blog/posts/${params.slug}.md`)
+	let content = await import(`../../../content/blog/posts/${post.id}/${post.lang}.md`)
 		.then((p) => p.default)
 		.catch(() => {
 			throw error(404, `Could not load post content: ${params.slug}`);
 		});
 
-	let readingTime = await import(`../../../content/blog/posts/${params.slug}.md?raw`)
+	let readingTime = await import(`../../../content/blog/posts/${post.id}/${post.lang}.md?raw`)
 		.then((rawModule) => {
 			const rawMarkdown = typeof rawModule.default === 'string' ? rawModule.default : '';
 			return calculateReadingTime(rawMarkdown);
