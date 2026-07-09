@@ -3,16 +3,18 @@ slug: 'zihnimi-kurtarmak-icin-yapay-zekayi-biraktim'
 title: "Zihnimi kurtarmak için kendime yapay zekayı 7 gün boyunca yasakladım"
 description: "Sürekli her iş için gittikçe daha fazla yapay zeka kullanma baskısı bize zarar veriyor. Durmadan yapay zeka kullanmak uzun süre düşünme ve odaklanma yeteneklerimizi köreltiyor. Her gün yüksek miktarda AI kullanmamın beni nasıl etkilediğini ve neden bıraktığımı anlatıyorum."
 createdAt: '2026-07-07'
+updatedAt: '2026-07-09'
 published: true
-image: "/blog/i-quit-ai-to-get-my-mind-back/no-ai-sticker.webp"
-ogImage: "/blog/i-quit-ai-to-get-my-mind-back/no-ai-sticker.webp"
+image: "/blog/thumbs/ai-chat-16x9.jpg"
+ogImage: "/blog/thumbs/ai-chat-16x9.jpg"
 tags:
 - ai
+- focus
 - productivity
 - psychology
 ---
 
-Modern zamanda ilk defa, insan zekasının yeri başka bir şeyle doldurulabilir bir şey olarak değerlendirildiğini görüyoruz. Artık yetenek öğrenmemize veya yeteneklere sahip olan insanları işe almamıza gerek yok. Herhangi bir konuyu kendimiz araştırmamıza veya o konuda düşünmemize gerek yok. Yapay zeka beynimizin yerine geçiyor ve bütün yapmak istediklerimizi çok daha geniş kapsamda ve çok daha az zamanda hallediyor. Sadece AI şirketlerinden daha fazla token al.
+Modern zamanlarda ilk defa, insan zekasının yeri başka bir şeyle doldurulabilir bir şey olarak değerlendirildiğini görüyoruz. Artık yetenek öğrenmemize veya yeteneklere sahip olan insanları işe almamıza gerek yok. Herhangi bir konuyu kendimiz araştırmamıza veya o konuda düşünmemize gerek yok. Yapay zeka beynimizin yerine geçiyor ve bütün yapmak istediklerimizi çok daha geniş kapsamda ve çok daha az zamanda hallediyor. Sadece AI şirketlerinden daha fazla token al.
 
 Bu en aptalca fikir olmalı. Sadece aptalca bir fikir değil, *muhtemelen en aptalca fikir*. Bir yandan hiç olmadığımız kadar zeki olabileceğimiz sanrısı içerisinde; diğer yandan gerçekte yaptığı şey gerçek insan zekasını, gerçekten düşünmek yerine bir sonraki kelimelerin ne olacağını tahmin eden bir program ile değiştirmek.
 
@@ -24,27 +26,27 @@ Bugünün yapay zekasının tek yapabildiği şey bir yazının istatistiksel ol
 
 Böyle düşünmemizi istiyorlar çünkü ürünlerini daha fazla satıp daha fazla kazanmak istiyorlar. AI kullanımını programlama, yazma, araştırma gibi her alanda daha da yaygınlaştırmak için ellerinden geleni yapıyorlar. Bununla beraber, gittikçe her gün daha fazla AI kullanmazsak diğerlerinden geride kalma ve işimizi kaybetme korkusunu da yaymaya çalışıyorlar.
 
-Bu sürekli olarak her şey için daha fazla AI kullanma peşinde koşturmanın bize zarar verdiğini düşünüyorum. Kronik olarak sürekli her şey için yapay zeka kullanımı dikkati dağınık ve hiçbir konuda derin düşünemeyen zihinlere sebep oluyor. Uzun bir süre boyunca her gün sürekli AI kullanımından sonra yaşadığım durum bu oldu. Yapay zekayı bırakmaya ve durumu değerlendirmeye karar verdim ve bu blog yazımda bundan bahsedeceğim.
+Bu sürekli olarak her şey için daha fazla AI kullanma peşinde koşturmanın bize zarar verdiğini düşünüyorum. Kronik olarak sürekli her şey için yapay zeka kullanımı dikkati dağınık ve hiçbir konuda derin düşünemeyen zihinlere sebep oluyor. Bizi daha zeki olmak yerine daha aptal ve bağımlı hale getiriyor. Uzun bir süre boyunca her gün sürekli AI kullanımından sonra bana olan şey de buydu. Yapay zekayı bırakmaya ve durumu değerlendirmeye karar verdim ve bu blog yazımda bundan bahsedeceğim.
 
 ## Yapay zeka kullanma deneyimim
 
 2020'den beri programlama ile uğraşıyorum. O zamanlar, Arduino projeleri yapmakla başladım. Kod yazmak için kullandığım araç Arduino IDE idi ve intellisense'e bile sahip değildi. Ve 2021'de VSCode'u keşfettiğimde çok büyük bir seviye atlama olarak hissettirdi. O zamanlar her şeyi kendim araştırır ve kodlardım. Gerek programlama, gerek başka konularda araştırma yapmak olsun; hepsini bu şekilde yaptım (diğer herkes gibi).
 
-Sonra "AI" ortaya çıktı ve bize çok büyük üretkenlik faydası vaatleri verdiler. Kim 10 kat daha üretken olmak istemez? Hem de çok kolay, sadece ChatGPT'ye veya Gemini'a bir soru sor ve sana yanıt vermesini izle. Saniyeler içerisinde internette araştırma yapabilir. Hatta aslında internetin bir program haline sıkıştırılmış hali gibi, değil mi? Bu yüzden en yüksek üretkenlik için yapay zekayı kullanmalıyız yoksa geri kalıp işlerimizi kaybedeceğiz.
+Sonra "AI" ortaya çıktı ve bize çok büyük üretkenlik faydaları vaat ettiler. Kim 10 kat daha üretken olmak istemez? Hem de çok kolay, sadece ChatGPT'ye veya Gemini'a bir soru sor ve sana yanıt vermesini izle. Saniyeler içerisinde internette araştırma yapabilir. Hatta aslında internetin bir program haline sıkıştırılmış hali gibi, değil mi? Bu yüzden en yüksek üretkenlik için yapay zekayı kullanmalıyız yoksa geri kalıp işlerimizi kaybedeceğiz.
 
 ![|400](/blog/i-quit-ai-to-get-my-mind-back/use-ai-bro.png)
 
 Son birkaç yıldır, daha fazla üretkenlik için AI chat ve AI kodlama araçlarını kullanıyordum. Zaman geçtikçe, hem kodlama hem de araştırma yapmak için her gün daha fazla yapay zeka kullanıyordum.
 
-Tarayıcı sekmelerimin yarısı Claude veya Gemini oldu. Ne zaman aklıma bir fikir gelse her zaman bir "AI" a sorma dürtüsünü hisseder ve o şekilde "araştırma" yapardım. Sonra bu durmaksızın devam eden bir "AI" ile karşılıklı mesajlaşma döngüsüne dönüşürdü.
+Tarayıcı sekmelerimin yarısı Claude veya Gemini oldu. Ne zaman aklıma bir fikir gelse her zaman bir "AI"a sorma dürtüsünü hisseder ve o şekilde "araştırma" yapardım. Sonra bu durmaksızın devam eden bir "AI" ile karşılıklı mesajlaşma döngüsüne dönüşürdü.
 
 Fark ettim ki, artık pek fazla herhangi bir konuya odaklanıp derin düşünmüyordum. Ne zaman oturup bir konu hakkında düşünmek istesem, bir AI ile konuşmaya başlıyordum. Ve eğer AI chat kullanmayıp sadece kendi başıma düşünmek istersem ise, ya dikkatim dağılıyordu ya da sonunda AI'a geri geliyordum. Bir konuya kendim odaklanmak istediğimde çok zorlanıyordum. Kendi başıma bir konuya odaklanıp uzun sürelerce o konuyu derin düşünme yeteneğimi kaybediyordum.
 
-Ayrıca saatler boyunca "AI" kullanımından sonra bayağı yorgun hissediyordum. AI chat' ten gelen bu yoğun bilgiden bunalmış ve kaybolmuş hissediyordum. Sanırım, hafızam bu AI chat' lerden gelen büyük boyutlu ve düzensiz bilgiyi tutmakta zorlanıyordu.
+Ayrıca saatler boyunca "AI" kullanımından sonra bayağı yorgun hissediyordum. AI chat'ten gelen bu yoğun bilgiden bunalmış ve kaybolmuş hissediyordum. Sanırım, hafızam bu AI chat'lerden gelen büyük boyutlu ve düzensiz bilgiyi tutmakta zorlanıyordu.
 
-Bu iyi bir durum değildi ve çalışmamı çok etkiledi. Cursor gibi AI agent' ları kodlama için kullandığım zamanlar, basit bir fonksiyonu yazmakta bile zorlanıyordum. Mesela, birisinin uyanma ve uyuma saatleri arasındaki bütün saatlerin listesini veren bir fonksiyonu kendim yazmak zor hissettirdi. Ayrıca uzun yazılar yazmaya odaklanmakta da zorlanıyordum ve ne zaman bir parça yazı yazsam bir LLM'e inceletme dürtüsünü hissediyordum. İnceleme yanıtını aldıktan sonra alakalı değişilikleri yapıp tekrar incelemesini istiyordum. Yazıyı yazmaya odaklanmak yerine bu şekilde bir döngüye girip uzun bir süre böyle zaman geçiriyordum.
+Bu iyi bir durum değildi ve çalışmamı çok etkiledi. Cursor gibi AI agent'ları kodlama için kullandığım zamanlar, basit bir fonksiyonu yazmakta bile zorlanıyordum. Mesela, birisinin uyanma ve uyuma saatleri arasındaki bütün saatlerin listesini veren bir fonksiyonu kendim yazmak zor hissettirdi. Ayrıca uzun yazılar yazmaya odaklanmakta da zorlanıyordum ve ne zaman bir parça yazı yazsam bir LLM'e inceletme dürtüsünü hissediyordum. İnceleme yanıtını aldıktan sonra alakalı değişiklikleri yapıp tekrar incelemesini istiyordum. Yazıyı yazmaya odaklanmak yerine bu şekilde bir döngüye girip uzun bir süre böyle zaman geçiriyordum.
 
-Yapay zeka beni tembel ve ona muhtaç yapıyordu. Herhangi bir şeyi kendi başıma yapmayı can yakıcı yapıyordu çünkü bu AI kulanmaktan daha fazla dikkat ve özenli efor istiyordu. Sadece dikkatimi verebilme yeteneğimi kaybetmiyordum, aynı zamanda bunu yapma isteğimi de kaybediyordum. AI kullanmak her zaman çok daha kolay yoldu. Ama doğru sonuçlar verdiği veya gerçekten verimli olduğu belirsiz.
+Yapay zeka beni tembel ve ona muhtaç yapıyordu. Herhangi bir şeyi kendi başıma yapmayı can yakıcı yapıyordu çünkü bu AI kullanmaktan daha fazla dikkat ve özenli efor istiyordu. Sadece dikkatimi verebilme yeteneğimi kaybetmiyordum, aynı zamanda bunu yapma isteğimi de kaybediyordum. AI kullanmak her zaman çok daha kolay yoldu. Ama her zaman doğru sonuçlar veren veya gerçekten en verimli olan yol değildi.
 
 Fark ettim ki saatlerce "AI" kullanmamın sebebi işlerimi daha hızlı halletmemi sağlaması değildi. Gerçek sebebi onu kullanmanın ve dikkatimi ona vermenin işi kendim yapmaktan daha kolay olmasıydı. Bir alışkanlığa dönüştü. Ne zaman bir şeyi araştırmayı veya kod yazmayı düşünsem, hemen aklıma AI araçlarını kullanmak geliyordu.
 
@@ -54,15 +56,15 @@ Ben de bu sebeple en güçlü silahımı bu duruma karşı kullanmaya karar verd
 
 ## Yoğun kullanımdan sonra AI'ı bırakmak nasıldı
 
-Çok acı vericiydi. Sürekli AI kullanma dürtüsünü hissedip duruyordum ve beynim sürekli bana "bu çok yavaş!" diye bağırıp duruyordu. Ama biliyordum ki bu yavaşlık hissi mantığımdan değil, yapay zeka kullanımı alışkanlığından gelen aceleci histen kaynaklanıyordu.
+Çok acı vericiydi. Sürekli AI kullanma dürtüsünü hissedip duruyordum ve beynim sürekli bana "bu çok yavaş!" diye bağırıp duruyordu. Ama biliyordum ki bu yavaşlık hissi mantığımdan değil, yapay zeka kullanımına alışmış dağınık ve aceleci halimden kaynaklanıyordu.
 
 Herhangi bir konuya odaklanıp araştırmak veya kod yazmak çok zordu. Bayağı sıkılmış hissediyordum. Kodları açıp saatlerce bakıyor, hiçbir işi halledemiyordum. Zihnim aynı anda 3-4 farklı konuya dalıyordu: gündelik yaşamdan bir konu, oynadığım bir oyun, zihnimin arka planında çalan bir müzik...
 
 İlk haftanın sonlarına doğru durum daha iyiye gitti. Zorlanmama rağmen devam ettikçe ve kod içinde daha hafif işleri yaptıkça, işlerin karmaşıklığını ve boyutunu gittikçe artırabiliyordum. Dağınık dikkat durumuna yeterince dayandıkça ve beynimin sakinleşmesine izin verdikçe dikkatim iyileşiyordu.
 
-İyileşmeler günler içerisinde yavaş bir şekilde gelişti. 7. günde çok daha iyiydim ama hala yapay zeka kullanmaya çok alışmadan önceki halim gibi değildim. Bu da aslında gayet normal, 7 gün zihin işleyişi gelişimi için uzun bir süre değil. 7. günden sonra her gün detaylı gözlem yapmayı bıraktım ama zihnimin durumu gittikçe daha iyileşiyordu. Şu an bu yazıyı yayınladğım 23. güne kadar geldim ve yapay zekayı sadece gramer kontrolü gibi basit şeyler için kullandım. Karşılıklı mesajlaşmaya girmeden.
+İyileşmeler günler içerisinde yavaş bir şekilde gelişti. 7. günde çok daha iyiydim ama hala yapay zeka kullanmaya çok alışmadan önceki halim gibi değildim. Bu da aslında gayet normal, 7 gün zihin işleyişi gelişimi için uzun bir süre değil. 7. günden sonra her gün detaylı gözlem yapmayı bıraktım ama zihnimin durumu gittikçe daha iyileşiyordu. Şu an bu yazıyı yayınladığım sırada 23 gün oldu ve yapay zekayı sadece gramer kontrolü gibi basit şeyler için kullandım. Karşılıklı mesajlaşmaya girmeden.
 
-Anladım ki düşündüğüm şey doğruymuş, zihnim gerçekten sürekli "AI" kullanımından etkileniyormuş. Sonunda bu durumdan kurtulabileceğim ve beynimin tekrar düzgün çalışabileceğini anladığım için rahatladım.
+Anladım ki düşündüğüm şey doğruymuş, zihnim gerçekten sürekli "AI" kullanımından etkileniyormuş. Sonunda bu durumdan kurtulabildiğim ve beynimin tekrar düzgün çalışabildiği için rahatladım.
 
 ## Yapay Zeka Bağımlılığı
 
@@ -77,9 +79,9 @@ Günümüzdeki "AI chat" araçlarının (ChatGPT, Claude vs.) hepsi aynı şekil
 
 Ve bu sen bırakmak isteyene kadar veya limitlere ulaşana kadar devam eder.
 
-Bu aslında bir *sonsuz geri bildirim döngüsü*. Bir davranışı yapıp ona karşılık almanın döngü halinde devam etmesine, geri bildirim döngüsü denir. Yapay zeka kullanımında, sen bir mesaj gönderirsin ve LLM buna bir yanıt üreterek karşılık verir. Bu yanıtı okur, değerlendirir ve yeni bir mesaj gönderirsin ve bu döngü devam eder.
+Bu aslında bir *sonsuz geri bildirim döngüsü*. Bir davranışı yapıp ona geri tepki almanın döngü halinde devam etmesine, geri bildirim döngüsü denir. Yapay zeka kullanımında, sen bir mesaj gönderirsin ve LLM buna bir yanıt üreterek geri tepki verir. Bu yanıtı okur, değerlendirir ve yeni bir mesaj gönderirsin ve bu döngü devam eder.
 
-Bu durum zihninizi bu geri bildirim döngüsü içerisindeki eylemi yapmak istemeye eğitir. LLM yanıtları sana ilginç geldiği için, beynin mesaj göndermekten dopamin salgılar. Zaman geçtikçe, beynin mesaj göndermeyi (davranış) modelin yanıtından gelen tatmin edici his ile (karşılık) ilişkilendirmeyi öğrenir ve seni bu döngüyü devam ettirmeye daha yatkın hale getirir.
+Bu durum zihnini bu geri bildirim döngüsü içerisindeki davranışı yapmak istemeye eğitir. LLM yanıtları ilginç geldiği için, beynin mesaj göndermekten dopamin salgılar. Zaman geçtikçe, beynin mesaj göndermeyi (davranış) modelin yanıtından gelen tatmin edici his ile (tepki) ilişkilendirmeyi öğrenir ve seni bu döngüyü devam ettirmeye daha yatkın hale getirir.
 
 ### Slot makineleri gibi
 
@@ -91,7 +93,7 @@ Ama gerçek hayatta bu yaşanmaz. Bunun yerine, kolu düşünmeden çekersin. Sl
 
 Başta kolu neden çektin? Mantıklı bir karar olduğu için çekmedin. Kazanmanın umudu seni o kadar heyecanlandırdığı için mantığın bunun etkisi altında kaldı. Bu da seni bu geri bildirim döngüsüne girmeye itti.
 
-Bu, seni davranış yapıp karşılık almanın ilişkisiyle daha fazlasını yapmayı isteten geri bildirim döngüsü. Duygusal sistemin kolu çektikçe iyi hisseder ve mantıksal sistemin kazanma ihtimaline inanmaktadır, bu yüzden bütün paranı kaybedene kadar veya mantıksal sistemin sonunda aptallık yaptığını anlayana kadar devam edersin.
+Bu, seni davranış yapıp geri tepki almanın ilişkisiyle daha fazlasını istemeye iten aynı geri bildirim döngüsü. Duygusal sistemin kolu çektikçe iyi hisseder ve mantıksal sistemin kazanma ihtimaline inanmaktadır, bu yüzden bütün paranı kaybedene kadar veya mantıksal sistemin sonunda aptallık yaptığını anlayana kadar devam edersin.
 
 ### Beynin daha hızlı ve kolay ödülleri tercih etmeye yatkınlığı
 
@@ -105,13 +107,13 @@ Ayrıca, bir şeyi sürekli kullanmak beynimiz için o seçeneği daha da kolay 
 
 Arşimet, banyo küvetine girdiği zaman bedeninin hacmine eşit miktarda suyu taşırdığını fark ettiği anda "Eureka!" (buldum) diye bağırdı. Bu sayede düzensiz şekilli objelerin hacmini onları suya daldırıp taşan miktardaki suyu ölçerek bulabileceğini anladı. Galileo, dünyanın evrenin merkezi olmadığını kanıtlayabildi çünkü gök cisimlerinin hareketlerini anladı ve onlar hakkında yıllarca düşünüp araştırma yaptı. Her bilim gelişmesi, her mühendislik gelişmesi insanların bir konu hakkında çok uzun süreler derinlemesine düşünüp araştırma yapması sayesinde ortaya çıktı.
 
-Karmaşık problem çözme durumlarıyla uğraşan her meslek, uzun süreler derin düşünme gerektirir. Bilim, programlama, grafik tasarım, hukuk, tıp, mühendislik, ekonomi, mimari, business, strateji... Kompleks konuları öğrenir, mental modeller oluşturur, bir problemle karşılaşınca veya bir proje yapmaya çalıştığımız zaman derin düşünürüz.
+Karmaşık problem çözme durumlarıyla uğraşan her meslek, uzun süreler derin düşünme gerektirir. Bilim, programlama, grafik tasarım, hukuk, tıp, mühendislik, ekonomi, mimari, işletme, strateji... Kompleks konuları öğrenir, mental modeller oluşturur, bir problemle karşılaşınca veya bir proje yapmaya çalıştığımız zaman derin düşünürüz.
 
 ### Yapay zeka düşünemez
 
 Yapay zeka adı verilen şeyin yaptığı şey düşünme değildir. Yaptığı tek şey bir sonraki yazı parçasını sahip olduğu veriye göre istatistiksel olarak tahmin etmektir.
 
-Bu yöntem bazı alanlara uygulanabilir ve ne olduğunu anladığınız sürece işe yarar. Örnek olarak, büyük miktarlarda verilerin özetlenmesinde işe yarar. Ama bunda bile her zaman güvenilir ve doğru yanıtlar veremezler. Gerçekleri tam tersine çevirdiğine bizzat şahit oldum ve eğer gerçeğin ne olduğunu bilmeseydim yanlış yaptığını anlayamazdım.
+Bu yöntem bazı alanlara uygulanabilir ve ne olduğunu anladığın sürece işe yarar. Örnek olarak, büyük miktarlarda verilerin özetlenmesinde işe yarar. Ama bunda bile her zaman güvenilir ve doğru yanıtlar veremezler. Gerçekleri tam tersine çevirdiğine bizzat şahit oldum ve eğer gerçeğin ne olduğunu bilmeseydim yanlış yaptığını anlayamazdım.
 
 Mantık gerektiren ama örnek verileri olmayan, `"strawberry" kelimesi içerisinde kaç tane "r" harfi vardır` ya da [iki ucunu tuttuğun bir kalemin bir ucunu bırakırsan ne olur](https://www.youtube.com/watch?v=thKjvF1dZQY) gibi şeylerin sorulduğu zaman nasıl başarısız olduklarını hepimiz gördük. 100% özgüvenle saçma sapan cevaplar veriyorlar. Bunun sebebi, kelimelerin anlamlarını işleyen gerçek bir mantıksal sisteme sahip olmamalarıdır. Yaptıkları şey sadece ellerindeki verilere göre istatistiksel tahmin üretmektir.
 
@@ -135,7 +137,7 @@ Gerçek düşünme yeteneği yeni bilgiyi, yeni düşünceleri, problemlere çö
 
 LLM teknolojisi sadece istatistiksel tahminler yapar. "Bilme" veya "anlama" gibi özelliklere sahip olmaları mümkün değildir çünkü bunlar gerçek bir zihnin özellikleridir.
 
-LLM yönteminin doğru şekilde kullanıldığında işe yaradığını kabul ediyorum. Bilgiye hızlı erişme ve özetleme gibi konularda çok iyi çalışır. Ama gerçek yaratıcı ve problem çözücü insan zihninin yerine geçemez. İşe yaradıkları konularda kullanılmalılar ve bu esnada hata yapmalarına karşı dikkatli olunmalı.
+LLM yönteminin doğru şekilde kullanıldığında işe yaradığını kabul ediyorum. Bilgiye hızlı erişme ve özetleme gibi konularda çok iyi çalışır. Ama gerçek yaratıcı ve problem çözücü insan zihninin yerine geçemez. İşe yaradıkları konularda kullanılmalılar ve bu esnada hatalarına ve yetersizliklerine karşı dikkatli olunmalı.
 
 Ayrıca, sıradan bir matematiksel ortalama hesaplama algoritması sıra dışı ve özgün düşünme yöntemlerimizin yerine geçmemeli. Hepimiz kendi eşsiz tecrübelerimiz ve fizyolojilerimiz sayesinde farklı şekillerde gelişmiş özgün beyinlere sahibiz. Bu özgünlük bizim başkalarının göremediği şeyleri görmemize ve keşfetmemize yarayan şeydir. LLM'leri kendimizin yerine düşünmek için kullanmak bu özgünlüğü de elimizden alır.
 
