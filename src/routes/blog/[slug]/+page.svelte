@@ -134,23 +134,14 @@
 
 			<!-- Date and Reading Time -->
 			<div class="w-full flex items-center gap-x-3 gap-y-2 flex-wrap mb-6">
-				<p class="text-sm text-base-content-muted font-medium opacity-80 my-0!">
+				<p
+					class="text-sm text-base-content-muted font-medium opacity-80 my-0!"
+					title="{m.blog_published_at({ at: formatDate(data.meta.createdAt, 'long') })} {data.meta
+						?.updatedAt
+						? `${m.blog_updated_at({ at: formatDate(data.meta.updatedAt, 'long') })}`
+						: ''}"
+				>
 					{formatDate(data.meta.createdAt)}
-					{#if data.meta.updatedAt}
-						{@const created =
-							typeof data.meta.createdAt === 'string'
-								? new Date(data.meta.createdAt.replaceAll('-', '/'))
-								: new Date(data.meta.createdAt)}
-						{@const updated =
-							typeof data.meta.updatedAt === 'string'
-								? new Date(data.meta.updatedAt.replaceAll('-', '/'))
-								: new Date(data.meta.updatedAt)}
-						{#if updated.getTime() !== created.getTime()}
-							<span class="opacity-60">
-								({m.blog_updated()} {formatDate(data.meta.updatedAt)})</span
-							>
-						{/if}
-					{/if}
 				</p>
 
 				{#if data.readingTime}

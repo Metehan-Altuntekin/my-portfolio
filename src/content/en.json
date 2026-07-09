@@ -30,7 +30,10 @@
 
 	"blog_min_read": "{count} min read",
 	"blog_mins_read": "{count} mins read",
+	"blog_published": "published",
 	"blog_updated": "updated",
+	"blog_published_at": "published at {at}",
+	"blog_updated_at": "updated at {at}",
 
 	"toc_open": "Open table of contents",
 	"toc_close": "Close table of contents"

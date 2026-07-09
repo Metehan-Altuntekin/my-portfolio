@@ -30,7 +30,10 @@
 
 	"blog_min_read": "{count} dk okuma",
 	"blog_mins_read": "{count} dk okuma",
+	"blog_published": "yayınlandı",
 	"blog_updated": "güncellendi",
+	"blog_published_at": "{at} tarihinde yayınlandı",
+	"blog_updated_at": "{at} tarihinde güncellendi",
 
 	"toc_open": "Aç: İçindekiler",
 	"toc_close": "Kapat: İçindekiler"
