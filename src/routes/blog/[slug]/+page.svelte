@@ -166,11 +166,11 @@
 			</div>
 
 			<!-- Tags -->
-			<div class="flex flex-wrap self-start gap-4 mb-6">
+			<div class="flex flex-wrap self-start gap-3 mb-6">
 				{#each data.meta.tags as category}
 					<a
 						href={`/blog?category=${category}`}
-						class="chip variant-filled-secondary no-underline border border-base-content-muted/20 px-4! py-2! text-base-content-muted
+						class="chip no-underline border border-base-content-muted/20 px-3! py-1! text-base-content-muted
 									hover:underline backdrop-blur-sm"
 					>
 						{category}
